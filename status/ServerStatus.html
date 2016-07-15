@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ServerStatus - KITAN</title>
+<link rel="stylesheet" type="text/css" href="serverstat.css" media="screen and (min-width: 700px)" />
+</head>
+
+<body>
+    <div class="header"> <!-- Main Banner / header -->
+        <div class="headerLogo">
+            <!--<img src="#" alt="Kitten Approved Logo" title="Kitten Approved Logo"/>-->
+        </div>
+        
+        <div class="brand"> <!-- Site Name -->
+            <h1>Kitten Approved Gaming Network</h1>
+            <h3>Where kittens gather around for gaming sessions :3</h3>
+        </div>
+        
+        <div class="social"> <!-- Social Media Profiles -->
+            <ul>
+            	<li>Tumblr</li>
+            	<li>YouTube</li>
+            	<li>Facebook</li>
+            	<li>Twitter</li>
+            	<li>Google+</li>
+            </ul>
+        </div>
+        
+        <div class="navigation">
+            <ul>
+            	<li>Home</li>
+            	<li class="active">Server Status</li>
+            	<li>Downloads</li>
+            	<li>Forums</li>
+            </ul>
+        </div>
+        
+    </div> <!-- End main banner -->
+    
+ <!-- Float this LEFT -->
+    <div class="upcoming"> <!-- Upcoming Maintenance and Events -->
+        <h3>Maintenance Events / Downtimes</h3>
+        <h5>(<span class="red">Important</span> - <span class="orange">Alert</span> - <span class="lightblue">Notice</span> - <span class="white">Low</span>)</h5>
+        
+        <table>
+            <thead>
+                <td>Server</td>  <td>Serverity</td>  <td>Description</td>  <td>Effective Date/Time</td>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <td>HCK</td>  <td><span class="lightblue">Notice</span></td>  <td>Sample Notice Event</td>  <td>7-9-2016 @ 2300</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div> <!-- End upcoming -->
+    
+    <div class="eventLog"> <!-- Event logs, use same method as old -->
+        <h3>Event Log - What just happened?</h3>
+        
+        <div id="rawData">
+            <pre>
+ Not available at this moment.
+            </pre>
+        </div>
+            
+    </div> <!-- End Events log -->  
+    
+ <!-- Have this centered: main, needed, events, footer -->
+    <div class="mainContent"> <!-- Main content for server status / additional info needed to login servers... perhaps forum link? -->
+    
+        <h3>Server Information</h3>
+        <h5>(Servers are dedicated located in Chicago, US) - <a href="#" target="_blank" title="View Specifications in a new tab">View Server Specifications</a></h5>
+    
+        <div id="servers"> <!-- Table of servers and status -->
+            <table>
+                <thead>
+                    <td colspan="7">Minecraft Servers</td>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Mod Pack</td>  <td>Platform</td>  <td>Platform Link</td>  <td>IP</td>  <td>Status</td>  <td>Players</td>  <td>Additional Files?</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Horrified Creative Kittens</td>  <td>Technic</td>  <td><a href="#" title="Right Click > Copy Link URL">HCK Link here</a></td>  <td>hck.kita-servers.co</td>  <td>$status['ping'];</td>  <td>$status['players'];</td>  <td>per launcher</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            
+            <table>
+                <thead>
+                    <td colspan="3">Voice Servers</td>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Client</td>  <td>IP</td>  <td>Status</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Teamspeak 3</td>  <td>ts.kita-servers.co</td>  <td> isonline(); </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Discord</td>  <td>N/A</td>  <td>Probably</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> <!-- End Servers -->
+        
+        <div id="whatsNeeded"> <!-- What's needed to connect, if any? -->
+            <h3>What's needed to connect?</h3>
+            <p>No additional mods or addon's are needed at this moment. Everything will be updated by Technic Launcher unless you prefer to use your own client-sided mods.</p>
+            <p>Having problems connecting or unsure where to get the correct launcher needed? Visit: <a href="www.technicpack.net/download" target="_blank" title="Technic Launcher Download">http://www.technicpack.net/download</a> and download the correct launcher needed for your operating system.</p>
+            <p>Once the download is completed and you went through the install process, make sure you change in <strong>Options</strong> the Java Ram Settings from default 1GB to at least 4GB - 5GB RAM. You will have constant crashing, with 1GB default ram, when loading the game.</p>
+        </div> <!-- End What's Needed -->
+       
+    </div> <!-- End mainContent -->
+    
+    <div class="footer"> <!-- Footer, show nav links and logo again similar to previous home page -->
+        <h3>Kitten Approved Gaming - Development in Progress</h3> <!-- Centered -->
+        
+        
+        
+        <ul id="navFooter"> <!-- Nav Footer -->
+        <p>Navigation</p> 
+        	<li>Home</li>
+        	<li>Status Page</li>
+        	<li>Downloads</li>
+        	<li>Forums</li>
+        </ul>
+        
+        
+        <ul id="socialFooter"> <!-- Social Footer next to Nav Footer -->
+        <p>Social Media</p>
+            <li>Tumblr</li>
+        	<li>YouTube</li>
+        	<li>Facebook</li>
+        	<li>Twitter</li>
+        	<li>Google+</li>
+        </ul>
+    </div> <!-- End Footer -->
+
+</body>
+</html>
