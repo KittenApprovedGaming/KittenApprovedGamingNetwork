@@ -1,2 +1,2 @@
 # KittenApprovedGamingNetwork
-Main site
+Learning and building as I go.
