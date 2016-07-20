@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body {
+    margin: auto;
+    padding: 0;
+    width: 80%;
+    
+}
+
+/* HEADER */
+
+.header {
+
+    
+}
+
+.header .logo {
+    
+}
+
+.header .brand {
+    margin: auto;
+}
+
+/* MAIN CONTENT */
+
+.mainContent {
+    
+}
+
+.mainContent #articles {
+    
+}
+
+.mainContent #eventsUpcoming {
+    
+}
+
+.mainContent #twitterFeed {
+    
+}
+
+/* FOOTER */
+
+.footer {
+    
+}
