@@ -2,31 +2,57 @@
 /* CSS Document */
 
 html, body {
-    margin: auto;
     padding: 0;
     width: 80%;
+    position: absolute;
     
+}
+
+body {
+    background-color: #d2d2d2;   
 }
 
 /* HEADER */
 
 .header {
-
-    
+    margin: auto;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #00D3DE;
+    box-shadow: 0 0 10px #333;
 }
 
 .header .logo {
-    
+
 }
 
 .header .brand {
-    margin: auto;
+    position: relative;
+    top: -22px;
+    left: 130px;
+}
+
+.header .brand h1,h3 {
+    margin: auto;   
+}
+
+.header .brand h3 {
+    position: relative;
+    left: 60px;
 }
 
 /* MAIN CONTENT */
 
 .mainContent {
-    
+    position: relative;
+    top: 100px;
+    left: 200px;
+    background-color: white;
+    margin: auto;
+    overflow: scroll;
 }
 
 .mainContent #articles {
@@ -44,5 +70,15 @@ html, body {
 /* FOOTER */
 
 .footer {
-    
+    position: relative;
+    top: 100px;
+    left: 200px;
+    height: 20px;
+    width: 100%;
+    background-color: #00D3DE;
+    margin: auto;
+}
+
+.footer p {
+    text-align: center;   
 }
