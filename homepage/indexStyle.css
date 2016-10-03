@@ -3,7 +3,7 @@
 
 html, body {
     padding: 0;
-    width: 80%;
+    width: 90%;
     position: absolute;
     
 }
@@ -48,23 +48,35 @@ body {
 
 .mainContent {
     position: relative;
-    top: 100px;
-    left: 200px;
-    background-color: white;
-    margin: auto;
-    overflow: scroll;
+    top: 90px;
+	left: 15%;
+	width: 50%;
 }
 
 .mainContent #articles {
-    
+    background-color: white;
+    margin: auto;
+    overflow: visable;
 }
 
-.mainContent #eventsUpcoming {
-    
+#eventsUpcoming {
+	float: right;
+	position: relative;
+    background-color: white;
+	border: black 2px solid;
+	width: 30%;
+	height: 5%;
+	margin: 0 0 30px 20px;
 }
 
-.mainContent #twitterFeed {
-    
+#twitterFeed {
+    float: right;
+	position: relative;
+	background-color: white;
+	border: black 2px solid;
+	width: 30%;
+	height: 10%;
+	clear: both;
 }
 
 /* FOOTER */
@@ -77,6 +89,7 @@ body {
     width: 100%;
     background-color: #00D3DE;
     margin: auto;
+	clear: both;
 }
 
 .footer p {
