@@ -49,7 +49,7 @@ body {
 .mainContent {
     position: relative;
     top: 90px;
-	left: 15%;
+	left: 20%;
 	width: 50%;
 }
 
@@ -59,24 +59,28 @@ body {
     overflow: visable;
 }
 
-#eventsUpcoming {
+.socialContainer {
 	float: right;
 	position: relative;
-    background-color: white;
-	border: black 2px solid;
 	width: 30%;
-	height: 5%;
-	margin: 0 0 30px 20px;
+	height: 20%;
+	top: -340px;
+	left: 20px;
 }
 
-#twitterFeed {
-    float: right;
-	position: relative;
+.socialContainer #eventsUpcoming {
+	/*float: right;
+	position: relative; */
+    background-color: white;
+	border: black 2px solid;
+	height: 5%;
+	margin-bottom: 20px;
+}
+
+.socialContainer #twitterFeed {
 	background-color: white;
 	border: black 2px solid;
-	width: 30%;
 	height: 10%;
-	clear: both;
 }
 
 /* FOOTER */
