@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background-color: #d2d2d2;   
+    background-color: #fdfdfd; /* d2d2d2 */  
 }
 
 /* HEADER */
@@ -20,18 +20,20 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 70px;
+    height: 100px;
     background-color: #00D3DE;
-    box-shadow: 0 0 10px #333;
+    border-bottom: 1px white solid;
+    box-shadow: 0 0 10px #000000;
+    z-index: 1;
 }
 
 .header .logo {
-
+    
 }
 
 .header .brand {
     position: relative;
-    top: -22px;
+    top: -12px;
     left: 130px;
 }
 
@@ -48,15 +50,43 @@ body {
 
 .mainContent {
     position: relative;
-    top: 90px;
+    top: 120px;
 	left: 20%;
 	width: 50%;
 }
 
 .mainContent #articles {
-    background-color: white;
     margin: auto;
     overflow: visable;
+    border: #3399ff 2px solid;
+    padding: 15px;
+    background-color: #EDEDED;
+    box-shadow: 0 0 15px black;
+}
+
+.mainContent #articles h1:first-child {
+    color: #000000;
+    text-align: center; 
+    margin-top: 0;
+    font-size: 1.4em;
+}
+
+.mainContent #articles p:nth-child(2) {
+    color: #000000;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;   
+}
+
+.mainContent #articles h1 {
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+.mainContent #articles p {
+    
 }
 
 .socialContainer {
@@ -64,36 +94,62 @@ body {
 	position: relative;
 	width: 30%;
 	height: 20%;
-	top: -340px;
+	top: -357px;
 	left: 20px;
 }
 
 .socialContainer #eventsUpcoming {
-	/*float: right;
-	position: relative; */
-    background-color: white;
-	border: black 2px solid;
+    background-color: #ededed;
+	border: #3399ff 2px solid;
 	height: 5%;
 	margin-bottom: 20px;
+    box-shadow: 0 0 5px black;
+
+}
+
+.socialContainer #eventsUpcoming h1 {
+    font-size: 1.3em;
+    font-weight: bolder;   
+    text-align: center;
+    padding: 5px;
 }
 
 .socialContainer #twitterFeed {
-	background-color: white;
-	border: black 2px solid;
-	height: 10%;
+	background-color: #ededed;
+	border: #3399ff 2px solid;
+	height: 20%;
+    box-shadow: 0 0 5px black;
+}
+
+.socialContainer #twitterFeed h1 {
+    font-size: 1.3em;
+    font-weight: bolder;   
+    text-align: center;
+    padding: 5px;
 }
 
 /* FOOTER */
 
-.footer {
+/* .footer {
     position: relative;
     top: 100px;
     left: 200px;
     height: 20px;
     width: 100%;
-    background-color: #00D3DE;
     margin: auto;
 	clear: both;
+} */
+
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    top: 900px;
+    left: 0;
+    background-color: #33ffff;
+    box-shadow: 0 0 10px #000000;
+    border-top: 1px solid #ffffff;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 .footer p {
