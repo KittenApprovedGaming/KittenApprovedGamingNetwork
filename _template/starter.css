@@ -16,6 +16,11 @@ table {
     border-spacing: 0;   
 }
 
+a {
+    text-decoration: none;   
+}
+
+
 /* Colors - used on maintenance issues */
 
 .red {

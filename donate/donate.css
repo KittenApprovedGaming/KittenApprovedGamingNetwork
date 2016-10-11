@@ -5,30 +5,42 @@
 /* Donate */
 
 .donate {
-    position: fixed;
-    width: 30%;
-    padding: 5px;
+    position: relative;
+    width: 70%;
     height: auto;
-    top: 590px;
-    left: 10px;
-    float: left;
-    background-color: #f7f7f7;
+    margin: 0 auto;
+    top: 110px;
+    padding: 5px;
+    background-color: #f3f3f3;
     border: 1px #33ffff solid;
     box-shadow: 0 0 10px black;
     border-radius: 5px;
-    z-index: 8;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     
 }
 
-.donate h3:first-child {
+.donate #donateHeader {
+    margin-bottom: 30px;   
+}
+
+.donate a:link {
+    color: #ff4df3;   
+}
+
+.donate a:hover {
+    text-shadow: 0 0 15px black;   
+}
+
+.donate #donateHeader h3:first-child {
     text-align: center;
     color: #555;
+    font-size: 1.4em;
     text-shadow: 0 0 30px #000000;   
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.donate p:nth-child(2) {
+.donate #donateHeader p:nth-child(2) {
     color: #DB0003;
     text-shadow: 0 0 30px #960002;
     margin: 0;
@@ -38,7 +50,51 @@
 }
 
 .donate p {
-    color: #f7f7f7;
+    color: #333;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;   
 }
+
+
+/* Table */
+
+.donate table {
+    margin: 20px auto;
+}
+
+.donate table thead {
+    background-color: #3399ff;   
+}
+
+.donate table thead small {
+    font-size: 0.7em;   
+}
+
+.donate table thead td {
+    text-align: center;   
+    padding: 10px 30px 10px 10px;
+    font-weight: bolder;
+}
+
+.donate table tbody {
+    background-color: #00ccff;   
+}
+
+.donate table tbody tr:first-child td {
+    font-weight: 700;   
+}
+
+.donate table tbody td {
+    border-bottom: 2px solid black;  
+    padding: 10px 70px 10px 10px; 
+}
+
+
+
+.footer {
+    top: 820px;   
+}
+
+
+
+
 

@@ -25,6 +25,12 @@ table {
     border-spacing: 0;   
 }
 
+a {
+    text-decoration: none;   
+}
+
+
+
 /* Colors */
 
 .red {
@@ -160,6 +166,10 @@ table {
 .header .navigation ul {
     padding: 0;
     margin: 0;   
+}
+
+.header .navigation ul li:visited {
+    color: #ffffff;   
 }
 
 .header .navigation ul li:hover {
