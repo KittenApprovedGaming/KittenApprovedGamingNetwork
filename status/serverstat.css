@@ -1,13 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+
+}
+
+
+
 html, body {
     margin: 0;
     padding: 0;   
 }
 
 body { 
-    background-color: #dfdfdf;  
+    background-color: #f9f9f9;  
 }
 
 table {
@@ -18,22 +29,26 @@ table {
 
 .red {
     color: #ff0000;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
 }
 
 .orange {
     color: #FBA522;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
 }
 
 .lightblue {
     color: #33FFFF;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
 }
 
 .white {
     color: #FFFFFF;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0 0 4px black;
+    font-weight: bolder;
 }
 
 .active {
@@ -45,7 +60,7 @@ table {
 .header {
     width: 100%;
     height: 80px;
-    background-color: #0db50d;
+    background-color: #00ccff;
     box-shadow: 0 0 10px #000000;
     border-bottom: 1px solid #ffffff;
     position: fixed;
@@ -56,7 +71,7 @@ table {
 .header .headerLogo {
     height: 80px;
     width: 80px;
-    background-color: #609e60;
+    background-color: #3399ff;
     position: fixed;
 }
 
@@ -79,53 +94,106 @@ table {
 }
 
 .header .social {
-    
+    position: relative;
+    float: right;
+    padding: 5px;
 }
 
 .header .social ul {
     padding: 0;
-    margin: 0;
-    position: fixed;
-    top: 5px;
-    left: 990px;   
+    margin: 0;  
 }
 
 .header .social ul li {
     list-style-type: none;
-    display: inline;   
+    display: inline;
 }
 
-.header .navigation {
-    
+.header .social ul li:hover {
+    box-shadow: 0 0 50px #ff0000; 
+    font-size: 1.1em;  
+}
+
+.header .social ul li:first-child {     /* tumblr */
+    color: white;
+    padding: 5px;
+    background-color: #004CFF;
+    font-weight: bold;  
+}
+
+.header .social ul li:nth-child(2) {    /* youtube */
+    color: white;
+    padding: 5px;
+    background-color: #E82F32;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(3) {    /* fb */
+    color: white;
+    padding: 5px;
+    background-color: #0099ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(4) {    /* twitter */
+    color: white;
+    padding: 5px;
+    background-color: #33f8ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(5) {    /* g+ */
+    color: white;
+    padding: 5px;
+    background-color: #F36B25;
+    font-weight: bold;   
+}
+
+.header .navigation {       /* Main Nav */
+    position: relative;
+    float: right;
+    top: -4px;
+    padding: 5px;
+    clear: both;
 }
 
 .header .navigation ul {
     padding: 0;
-    margin: 0;
-    position: fixed;
-    top: 60px;
-    left: 750px;   
+    margin: 0;   
+}
+
+.header .navigation ul li:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    box-shadow: 0 0 50px #33ccff;   
 }
 
 .header .navigation ul li {
     list-style-type: none;
     display: inline-block;
-    margin: 0 15px 0 0;
+    padding: 15px;
+    color: white;
+    background-color: #FF4DF3;
+    font-size: 1.1em;
+    font-weight: bolder;
 }
+
+
 
 /* Upcoming */
 
 .upcoming {
     width: 30%;
-    height: 30%;
+    height: auto;
     position: fixed;
     top: 90px;
     left: 10px;
     float: left;
     padding: 5px;
-    background-color: #EAEAEA;
+    background-color: #f7f7f7;
     box-shadow: 0 0 10px #000000;
-    border: 1px solid #8fe38f;
+    border: 1px solid #33ffff;
     border-radius: 5px;
     z-index: 8;
 }
@@ -134,6 +202,7 @@ table {
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 .upcoming h5 {
@@ -157,20 +226,21 @@ table {
     width: 30%;
     height: auto;
     position: fixed;
-    top: 300px;
+    top: 280px;
     left: 10px;
     float: left;
 	margin-top: 110px;
     padding: 5px;
-    background-color: #EAEAEA;
+    background-color: #f7f7f7;
     box-shadow: 0 0 10px #000000;
-    border: 1px solid #8fe38f;
+    border: 1px solid #33ffff;
     border-radius: 5px;
     z-index: 8;
 }
 
 .eventLog h3 {
     text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
 }
 
 .eventLog #rawData {
@@ -187,6 +257,9 @@ table {
     padding: 5px;
 }
 
+
+
+
 /* Main Content -- main, needed, events, footer */
 
 .mainContent {
@@ -198,9 +271,9 @@ table {
     left: 33.3%;
 	margin: 0 -400px 0 0;
     padding: 10px;
-    background-color: #EAEAEA;
+    background-color: #f7f7f7;
     box-shadow: 0 0 10px #000000;
-    border: 1px solid #8fe38f;
+    border: 1px solid #33ffff;
     border-radius: 5px;
     z-index: 7;
 }
@@ -230,9 +303,9 @@ table {
 
 .mainContent #servers table:first-child thead td {
     padding: 10px; 
-    background-color: #609e60;
+    background-color: #3399ff;
     text-align: center; 
-    color: #d9d9d9;
+    color: #f7f7f7;
     text-shadow: 0 0 2px #000000;
     text-decoration: underline;
     font-weight: 700;
@@ -246,21 +319,23 @@ table {
 .mainContent #servers table:first-child tbody tr td {
     padding: 15px 15px 10px 15px;  
     text-align: center; 
-    background-color: #8fe38f;
+    background-color: #00ccff;
     border-bottom: 1px solid #000000;
 }
 
 /*Second Table */
 
 .mainContent #servers table:nth-child(2) {
-    margin: 50px 0 60px 165px;   
+    position: relative;
+    left: 26%;
+    margin: 50px 0 60px -5px;   
 }
 
 .mainContent #servers table:nth-child(2) thead td {
     padding: 10px;
     text-align: center;   
-    color: #d9d9d9;
-    background-color: #609e60;
+    color: #f7f7f7;
+    background-color: #3399ff;
     text-shadow: 0 0 2px #000000;
     text-decoration: underline;
     font-weight: 700;
@@ -274,7 +349,7 @@ table {
 .mainContent #servers table:nth-child(2) tbody tr td {
     padding: 15px 15px 10px 15px;
     text-align: center;   
-    background-color: #8fe38f;
+    background-color: #00ccff;
     border-bottom: 1px solid #000000;
 }
 
@@ -300,18 +375,19 @@ table {
 .footer {
     width: 100%;
     height: 350px;
-    background-color: #0db50d;
+    background-color: #00ccff;
     box-shadow: 0 0 10px #000000;
     border-top: 1px solid #ffffff;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     position: absolute;
     top: 980px;
+    margin-top: 250px;
     z-index: 8;
 }
 
 .footer h3 {
     text-align: center;
-    text-shadow: 0 0 15px #8fe38f;
+    text-shadow: 0 0 15px #ffffff;
 }
 
 
@@ -324,7 +400,7 @@ table {
 
 .footer #navFooter p:first-child {
        color: #000000;
-       text-shadow: 0 0 15px #8fe38f;
+       text-shadow: 0 0 15px #ffffff;
        font-weight: 700;
        text-decoration: underline;
 }
@@ -335,6 +411,7 @@ table {
 
 .footer #socialFooter {
     position: relative;
+    width: 10%;
     top: -127px;
     left: 150px;
     line-height: 30px;
@@ -342,7 +419,7 @@ table {
 
 .footer #socialFooter p:first-child {
     color: #000000;
-    text-shadow: 0 0 15px #8fe38f;
+    text-shadow: 0 0 15px #ffffff;
     font-weight: 700;
     text-decoration: underline;   
 }

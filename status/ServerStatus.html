@@ -19,21 +19,22 @@
         
         <div class="social"> <!-- Social Media Profiles -->
             <ul>
-            	<li>Tumblr</li>
-            	<li>YouTube</li>
-            	<li>Facebook</li>
-            	<li>Twitter</li>
-            	<li>Google+</li>
-            </ul>
+            	<li>Tumblr</li><!--
+            	--><li>YouTube</li><!--
+            	--><li>Facebook</li><!--
+            	--><li>Twitter</li><!--
+            	--><li>Google+</li><!--
+            --></ul>
         </div>
         
         <div class="navigation">
             <ul>
-            	<li>Home</li>
-            	<li class="active">Server Status</li>
-            	<li>Downloads</li>
-            	<li>Forums</li>
-            </ul>
+            	<li>Home</li><!--
+            	--><li class="active">Server Status</li><!--
+            	--><li>Downloads</li><!--
+            	--><li>Forums</li><!--
+                --><li>Donate</li><!--
+            --></ul>
         </div>
         
     </div> <!-- End main banner -->
@@ -45,12 +46,16 @@
         
         <table>
             <thead>
-                <td>Server</td>  <td>Serverity</td>  <td>Description</td>  <td>Effective Date/Time</td>
+                <td>Server</td>  <td>Serverity</td>  <td>Description</td>  <td>Est. Downtime</td>   <td>Effective Date/Time</td>
             </thead>
             
             <tbody>
                 <tr>
-                    <td>HCK</td>  <td><span class="lightblue">Notice</span></td>  <td>Sample Notice Event</td>  <td>7-9-2016 @ 2300</td>
+                    <td>HCK</td>  <td><span class="lightblue">Notice</span></td>  <td>Sample Notice Event</td> <td>N/A</td> <td>9, July 2016 @ 2300</td>
+                </tr>
+                
+                <tr>
+                    <td>HCK</td>    <td><span class="orange">Alert</span></td>   <td>Server Upgrade</td>  <td> &lt; 10 min </td> <td>11, October 2016 @ 0000</td>
                 </tr>
             </tbody>
         </table>
@@ -67,6 +72,7 @@
         </div>
             
     </div> <!-- End Events log -->  
+    
     
  <!-- Have this centered: main, needed, events, footer -->
     <div class="mainContent"> <!-- Main content for server status / additional info needed to login servers... perhaps forum link? -->
@@ -106,18 +112,23 @@
                         <td>Teamspeak 3</td>  <td>ts.kita-servers.co</td>  <td> isonline(); </td>
                     </tr>
                     
-                    <tr>
-                        <td>Discord</td>  <td>N/A</td>  <td>Probably</td>
-                    </tr>
                 </tbody>
             </table>
         </div> <!-- End Servers -->
         
         <div id="whatsNeeded"> <!-- What's needed to connect, if any? -->
             <h3>What's needed to connect?</h3>
-            <p>No additional mods or addon's are needed at this moment. Everything will be updated by Technic Launcher unless you prefer to use your own client-sided mods.</p>
-            <p>Having problems connecting or unsure where to get the correct launcher needed? Visit: <a href="www.technicpack.net/download" target="_blank" title="Technic Launcher Download">http://www.technicpack.net/download</a> and download the correct launcher needed for your operating system.</p>
-            <p>Once the download is completed and you went through the install process, make sure you change in <strong>Options</strong> the Java Ram Settings from default 1GB to at least 4GB - 5GB RAM. You will have constant crashing, with 1GB default ram, when loading the game.</p>
+                <p>The typical. Java of course and Technic Launcher. You can find anything extra needed here: <a href="#" target="_blank">Downloads</a> <br />
+                   If you plan to play this modpack you will need <em>Java 64-bit</em>. You'll be unable to play with the 32-bit version due to the 1GB ram limit. This modpack uses 4-5GB ram. </p>
+            
+            
+            <h3>Do I need to download extra mods to play?</h3>
+                <p>No additional mods or addon's are needed at this moment. Everything will be updated by Technic Launcher unless you prefer to use your own client-sided mods. Keep in mind that any client-side mods you add on your own will be deleted upon updating the modpack when a release is announced.</p>
+            
+            
+            <h3>Unsure where to get the correct launcher needed?</h3>
+                <p>Visit: <a href="www.technicpack.net/download" target="_blank" title="Technic Launcher Download">http://www.technicpack.net/download</a> and download the correct launcher needed for your operating system.</p>
+                <p>Once the download is completed and you went through the install process, <strong>make sure you change in <em>Options</em></strong> the Java Ram Settings from default 1GB to at <strong><em>least 4GB - 5GB RAM</em></strong>. <em class="red">You will have constant crashing, with 1GB default ram, when loading the game.</em></p>
         </div> <!-- End What's Needed -->
        
     </div> <!-- End mainContent -->

@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/* Donate */
+
+.donate {
+    position: fixed;
+    width: 30%;
+    padding: 5px;
+    height: auto;
+    top: 590px;
+    left: 10px;
+    float: left;
+    background-color: #f7f7f7;
+    border: 1px #33ffff solid;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    z-index: 8;
+    
+}
+
+.donate h3:first-child {
+    text-align: center;
+    color: #555;
+    text-shadow: 0 0 30px #000000;   
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.donate p:nth-child(2) {
+    color: #DB0003;
+    text-shadow: 0 0 30px #960002;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.donate p {
+    color: #f7f7f7;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;   
+}
+
