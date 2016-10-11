@@ -1,0 +1,235 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* pre */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: #f9f9f9;  
+}
+
+table {
+    border-spacing: 0;   
+}
+
+/* Colors - used on maintenance issues */
+
+.red {
+    color: #ff0000;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
+}
+
+.orange {
+    color: #FBA522;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
+}
+
+.lightblue {
+    color: #33FFFF;
+    text-shadow: 0 0 2px white;
+    font-weight: bolder;
+}
+
+.white {
+    color: #FFFFFF;
+    text-shadow: 0 0 4px black;
+    font-weight: bolder;
+}
+
+.active {
+     background-color: orange;  
+}
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #00ccff;
+    box-shadow: 0 0 10px #000000;
+    border-bottom: 1px solid #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.header .headerLogo {
+    height: 80px;
+    width: 80px;
+    background-color: #3399ff;
+    position: fixed;
+}
+
+.header .brand {
+    position: fixed;
+    top: 7px;
+    left: 90px;
+}
+
+.header .brand h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.header .brand h3 {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    left: 150px;
+}
+
+.header .social {
+    position: relative;
+    float: right;
+    padding: 5px;
+}
+
+.header .social ul {
+    padding: 0;
+    margin: 0;  
+}
+
+.header .social ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header .social ul li:hover {
+    box-shadow: 0 0 50px #ff0000; 
+    font-size: 1.1em;  
+}
+
+.header .social ul li:first-child {     /* tumblr */
+    color: white;
+    padding: 5px;
+    background-color: #004CFF;
+    font-weight: bold;  
+}
+
+.header .social ul li:nth-child(2) {    /* youtube */
+    color: white;
+    padding: 5px;
+    background-color: #E82F32;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(3) {    /* fb */
+    color: white;
+    padding: 5px;
+    background-color: #0099ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(4) {    /* twitter */
+    color: white;
+    padding: 5px;
+    background-color: #33f8ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(5) {    /* g+ */
+    color: white;
+    padding: 5px;
+    background-color: #F36B25;
+    font-weight: bold;   
+}
+
+.header .navigation {       /* Main Nav */
+    position: relative;
+    float: right;
+    top: -4px;
+    padding: 5px;
+    clear: both;
+}
+
+.header .navigation ul {
+    padding: 0;
+    margin: 0;   
+}
+
+.header .navigation ul li:hover {
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    box-shadow: 0 0 50px #33ccff;   
+}
+
+.header .navigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    background-color: #FF4DF3;
+    font-size: 1.1em;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+/* Footer Area -- Shows nav links (mainNav/Social), logo */
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #00ccff;
+    box-shadow: 0 0 10px #000000;
+    border-top: 1px solid #ffffff;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    position: absolute;
+    top: 980px;
+    margin-top: 250px;
+    z-index: 8;
+}
+
+.footer h3 {
+    text-align: center;
+    text-shadow: 0 0 15px #ffffff;
+}
+
+
+.footer #navFooter {
+    position: relative;
+    top: 57px;
+    line-height: 30px;
+    
+}
+
+.footer #navFooter p:first-child {
+       color: #000000;
+       text-shadow: 0 0 15px #ffffff;
+       font-weight: 700;
+       text-decoration: underline;
+}
+
+.footer #navFooter li {
+    list-style-type: none;
+}
+
+.footer #socialFooter {
+    position: relative;
+    width: 10%;
+    top: -127px;
+    left: 150px;
+    line-height: 30px;
+}
+
+.footer #socialFooter p:first-child {
+    color: #000000;
+    text-shadow: 0 0 15px #ffffff;
+    font-weight: 700;
+    text-decoration: underline;   
+}
+
+.footer #socialFooter li {
+    list-style-type: none;   
+}

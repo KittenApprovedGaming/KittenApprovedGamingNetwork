@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Donate - KITAN</title>
-<link rel="stylesheet"  type="text/css" href="../_template/starter.css"/>
-<link rel="stylesheet" type="text/css" href="donate.css"/>
+<title> - KITAN</title>
+<link rel="stylesheet" type="text/css" href="../_template/starter.css"/>
 </head>
 
 <body>
@@ -42,41 +41,14 @@
     </div> <!-- End main banner -->
     
     
-
-<div class="donate">    <!-- Start donate div -->
-        <h3>Server Fund</h3>
-        <p>Hosted by: Nuclear Fallout</p>
     
-    <p>Kitten Approved Gaming is hosted completely by Nuclear Fallout. </p>
     
-    <p>The cost to run the entire network is: $72.54 USD / monthly</p>
     
-    <p>Here's a breakdown:</p>
-        <table> <!-- Start cost breakdown table -->
-            <thead>
-                <td colspan="3">Cost Breakdown</td>
-            </thead>
-            
-            <tbody>
-                <tr>
-                    <td>Service</td> <td>Additional</td> <td>Cost</td>
-                </tr>
-                
-                <tr>
-                    <td>Virtual Dedicated</td>  <td>Quad-Core<br/>8GB RAM<br/>400GB Storage<br/>5GB SSD (Minecraft)<br/>Windows 2012 R2</td>   <td>$64.96</td>
-                </tr>
-                
-                <tr>
-                    <td>Webhosting (Lite)</td>  <td>N/A</td>    <td>$2.99</td>
-                </tr>
-                
-                <tr>
-                    <td>Teamspeak 3</td>    <td>20 slot</td>    <td>$4.59</td>
-                </tr>
-            </tbody>
-        </table> <!-- End cost breakdown table -->
     
-    </div> <!-- End Donate -->
+    MAIN CONTENT HERE!
+    
+    
+    
     
     
     
@@ -103,6 +75,9 @@
         	<li>Google+</li>
         </ul>
     </div> <!-- End Footer -->
+
+
+
 
 </body>
 </html>
