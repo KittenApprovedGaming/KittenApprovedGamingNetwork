@@ -7,7 +7,7 @@
 
   <script type="text/javascript">
     function inDev() {
-        alert ("Currently in development.\r\n\r\nCheck back later :)");
+        alert ("Currently in development.\r\nCheck back later :)");
     }
     
   </script>
@@ -18,28 +18,68 @@
 
 <div class="header">  <!-- Begin header -->
     <h1>Kitten Approved Gaming Network <span id="dev">--- In Development</span></h1>
-    <p>Where the kittens explore around for a gaming session</p>
+    <p>Where the kittens explore around for something shiny~</p>
 
 </div>  <!-- end header -->
 
 
 <div class="splashContent"> <!-- Begin Splash Main -->
-    <h2>Where do you want to explore?</h2>
-    
-    <div id="mc" onClick="inDev()"> <!-- minecraft option -->
-        <img src="_img/minecraft.png" alt="Kitten Approved Minecraft Community"/>
-    </div>
-    
-    <div class="seperator"><img src="_img/seperator.png" alt=""/></div> <!-- Seperator -->
-    
-    <div id="gw2" onClick="inDev()"> <!-- guild wars 2 option -->
-        <img src="_img/gw2.png" alt="Kitten Approved Guild Wars 2 Community"/>
-    </div>
+    <h2>Where do you want to explore?</h2>  <!-- Title out of containment -->
+        <div id="splashContainer"> <!-- Begin Container -->
+            <table id="splashTable" border="0"> <!-- start alignment table -->
+                <!-- <thead>
+                        ...Maybe later...
+                </thead> -->
+                
+                <tbody>
+                    <tr> <!-- row 1 -->
+                        <td> 
+                            <div id="mc" onClick="inDev()"> <!-- minecraft option -->
+                                <img src="_img/minecraft.png" alt="Kitten Approved Minecraft Community"/>
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div id="gw2" onClick="inDev()"> <!-- guild wars 2 option -->
+                                <img src="_img/gw2.png" alt="Kitten Approved Guild Wars 2 Community"/>
+                            </div> 
+                        </td>
+                        
+                    </tr> <!-- end row 1 -->
+                    
+                    <tr> <!-- row 2 -->
+                        <td>
+                            <div class="splashSelection" onClick="inDev()">
+                                <img src="_img/blog.png" alt="Visit Blog site" />
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="splashSelection" onClick="inDev()">
+                                <img src="_img/forums.png" alt="Visit Forums" />
+                            </div>
+                        </td>
+                    </tr> <!-- end row 2 -->
+                    
+                    <tr> <!-- row 3 , span 2-->
+                      
+         <!-- It's empty here.... :o -->
+                      
+                    </tr> <!-- end row 3 -->
+                
+                <!-- <div class="seperator"><img src="_img/seperator.png" alt=""/></div> <!-- Seperator -->
+                </tbody>
+            </table> <!-- End table alignment -->
+            
+            
+            <div class="more2come"> <!-- under table, wanted centered out of table since not actually an option -->
+                <img src="_img/more2come.png" alt="More in the future!" />
+            </div>
+            
+            
+       </div> <!-- End container -->
+</div> <!-- end splash -->
 
-
-
-
-</div> <!-- end splash main -->
 
 
 <div class="footer"> <!-- Begin footer -->
