@@ -26,7 +26,7 @@ body {
     left: 0;
     width: 100%;
     margin-bottom: 120px;
-    padding: 0 0 10px 10px;
+    padding: 5px 0 0 10px;
     background-color: #003451;
     z-index: 1;
 }
@@ -45,6 +45,68 @@ body {
     padding: 0;
     margin: 0; 
 }
+
+
+/* Social */
+
+.header .social {
+    position: relative;
+    float: right;
+    top: -64px;
+    left: -10px;
+
+}
+
+.header .social ul {
+    padding: 0;
+    margin: 0;  
+}
+
+.header .social ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header .social ul li:hover {
+    box-shadow: 0 0 50px #ff0000; 
+    font-size: 1.1em;  
+}
+
+.header .social ul li:first-child {     /* tumblr */
+    color: white;
+    padding: 5px;
+    background-color: #004CFF;
+    font-weight: bold;  
+}
+
+.header .social ul li:nth-child(2) {    /* youtube */
+    color: white;
+    padding: 5px;
+    background-color: #E82F32;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(3) {    /* fb */
+    color: white;
+    padding: 5px;
+    background-color: #0099ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(4) {    /* twitter */
+    color: white;
+    padding: 5px;
+    background-color: #33f8ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(5) {    /* g+ */
+    color: white;
+    padding: 5px;
+    background-color: #F36B25;
+    font-weight: bold;   
+}
+
 
 
 /* Game selection */
