@@ -60,6 +60,7 @@ body {
     width: 100.8%; /* this to.... really! */
     height: 400px;
     background-color: #573b0c;
+    background: linear-gradient(180deg, #333, #009400);
     box-shadow: 0 0 30px #5de100;
 }
 
@@ -79,7 +80,7 @@ body {
 #mc #mcContent {
     width: 80%;
     margin-top: 70px;
-    color: #5de100;
+    color: #C55C00;
     text-shadow: 0 0 30px #000000;
 }
 
@@ -94,7 +95,7 @@ body {
     width: 100.8%;
     height: 300px;
     background:
-        linear-gradient(180deg, #009400, #333);
+        linear-gradient(180deg, #a0a0a0, #333); /* 180deg, #009400, #333 */
 }
 
 #mcImage img {
