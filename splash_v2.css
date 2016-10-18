@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* pre */
+
+html {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;  
+}
+
+body {
+    background-color: #333;   
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    width: 100%; 
+    padding: 20px; 
+    left: 0;
+    top: 0; 
+    background-color: #000000;
+    border-bottom: 2px solid gray;
+    z-index: 1;
+}
+
+.header h1 {
+    color: #00ccff;
+    text-shadow: 0 0 20px #FF23C7; 
+    text-align: center;  
+    margin: 0;
+    padding: 0; 
+}
+
+.header p {
+    color: #00ccff;
+    text-shadow: 0 0 20px #FF23C7; 
+    text-align: center;  
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Main */
+
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#mc {       /* Minecraft */
+    position: absolute;
+    left: -.38%;  /* really.......... */
+    top: 100px;
+    width: 100.8%; /* this to.... really! */
+    height: 400px;
+    background-color: #573b0c;
+    box-shadow: 0 0 30px #5de100;
+}
+
+#mc:hover {
+   /* box-shadow: 0 0 200px #5DE100 inset;   */
+}
+
+#mc #mcLogo {
+    float: left;
+}
+
+#mc #mcLogo img {
+    width: 700px;
+    height: 303px;   
+}
+
+#mc #mcContent {
+    width: 80%;
+    margin-top: 70px;
+    color: #5de100;
+    text-shadow: 0 0 30px #000000;
+}
+
+#mc #mcContent h3 {
+    font-size: 1.4em;   
+}
+
+#mcImage {       /* Under content no background colour */
+    position: absolute;
+    top: 500px;
+    left: -.38%;
+    width: 100.8%;
+    height: 300px;
+    background:
+        linear-gradient(180deg, #009400, #333);
+}
+
+#mcImage img {
+    position: relative;
+    top: 30px;
+    left: 22%;
+    width: 300px;
+    height: 170px;   
+    background-color: #773200;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px #ffffff;
+}
+
+
+#gw2 {      /* Guild Wars 2         when hovering over selected class show a hover colour depending on the game */
+    position: absolute;
+    top: 800px;
+    left: -.38%;
+    width: 100.8%;
+    height: 400px;
+    background-color: #ffffff;
+    background: linear-gradient(-90deg, #d54d07, #6e0701);
+    box-shadow: 0 0 30px #f7f7f7;
+}
+
+#gw2:hover {
+  /*  box-shadow: 0 0 200px #ffffff inset; */  
+}
+
+#gw2 #gw2Logo {
+    float: left;
+}
+
+#gw2 #gw2Logo img { 
+    width: 700px;
+    height: 400px; 
+}
+
+#gw2 #gw2Content {
+    width: 80%;
+    margin-top: 70px;
+    color: #ffffff;
+    text-shadow: 0 0 30px #000000;
+}
+
+#gw2 #gw2Content h3 {
+    font-size: 1.4em;   
+}
+
+#gw2Image {      /* Under content no background colour */
+    position: absolute;
+    top: 1200px;
+    left: -.38%;
+    width: 100.8%;
+    height: 300px;
+    background: linear-gradient(180deg, #a0a0a0, #333);
+}
+
+#gw2Image img {
+    position: relative;
+    top: 30px;
+    left: 22%;
+    width: 300px;
+    height: 170px;   
+    background-color: #6e0701;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 30px;
+    box-shadow: 0 0 20px #d54d07;  
+}
+
+
+
+/* footer */
+
+.footer {
+       
+}

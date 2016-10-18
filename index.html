@@ -1,105 +1,107 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
 <meta charset="utf-8">
-<title>Splash - KITAN</title>
-<link rel="stylesheet" type="text/css" href="splash.css" media="screen"/>
-
-  <script type="text/javascript">
-    function inDev() {
-        alert ("Currently in development.\r\nCheck back later :)");
-    }
-    
-  </script>
+<title>Splash V2</title>
+<link rel="stylesheet" type="text/css" href="splash_v2.css"/>
 </head>
-
 
 <body>
 
-<div class="header">  <!-- Begin header -->
-    <h1>Kitten Approved Gaming Network <span id="dev">--- In Development</span></h1>
-    <p>Where the kittens explore around for something shiny~</p>
+<!-- Header -->
+<div class="header"> <!-- center this completely, background shadow, border -->
+    <h1>Kitten Approved Gaming Network</h1>
+    <p>KITAN FTW</p>
+    
+    <!-- Have links here centered linking to a game listed below #minecraft -->
+    
+</div> <!-- end header -->
 
-    <div class="social">
-             <ul>
-            	<li>Tumblr</li><!--
-            	--><li>YouTube</li><!--
-            	--><li>Facebook</li><!--
-            	--><li>Twitter</li><!--
-            	--><li>Google+</li><!--
-            --></ul>
+
+<!-- Main area -->
+<div class="main"> <!-- Main area to hold games that will span across the page with pictures/ description -->
+
+    <div id="mc"> <!-- this will be brown background with green text-->
+        
+        <div id="mcLogo"> <!-- Left side with text and description + screenshots on right -->
+            <img src="_img/mc_1.png" alt="Minecraft logo" />
+        </div>
+        
+        <div id="mcContent"> <!-- Right side filled with description -->
+            <h3>Minecraft</h3>
+            <p>That blocky shit you spend ohhh so long trying to purrrrfect.... then gets blown up by that happy ass creeper behind you. -.-</p>
+            <p>If that wasn't enough to get you scared off; then come try our modpack called Horrified Creative Kittens.. I guarantee you'll be horrified by some of these creatures other than the ocelots, if they aren't hiding from these creatures themselves!</p>
+        </div>
+        
+    </div> <!-- end mc -->
+
+
+
+    <div id="mcImage"> <!-- image outside mc container under. centered with a few screenshots -->
+        <a href="_img/_mc/1.png" title="View full screen" target="_blank">
+            <img src="_img/_mc/1.png" alt="" />
+        </a>
+        
+        <a href="_img/_mc/2.png" title="View full screen" target="_blank">
+            <img src="_img/_mc/2.png" alt="" />
+        </a>
+        
+        <a href="_img/_mc/3.png" title="View full screen" target="_blank">
+            <img src="_img/_mc/3.png" alt="" />
+        </a>
+    </div> <!-- this colour #33ffff; maybe? -->
+
+
+
+    <div id="gw2"> <!-- black background and red -->
+       
+        <div id="gw2Logo"> <!-- Left side with text and description + screenshots on right -->
+            <img src="_img/gw2_1.png" alt="Guild Wars 2 logo" />
+        </div>
+        
+        <div id="gw2Content"> <!-- Right side filled with description -->
+            <h3>Guild Wars 2</h3>
+            <p>The social game that brings everyone together: whether it be dying constantly in the Heart of Thorns expansion, forgetting you have an endurance bar when flying hitting the ground for 124K hp (and glitched into the ground).. there will always be that one person (or group) laughing at you before running over to revive you</p>
+            <p>Join us in our duty to protect Tyria.... or become a master crafter that stays hidden from danger.</p>
+        </div>
+        
+        
+    </div> <!-- end gw2 -->
+
+
+    <div id="gw2Image"> <!-- under description -->
+        <a href="_img/_gw2/1.jpg" title="View full screen" target="_blank">
+            <img src="_img/_gw2/1.jpg" alt="" />
+        </a>
+        
+        <a href="_img/_gw2/2.jpg" title="View full screen" target="_blank">
+            <img src="_img/_gw2/2.jpg" alt="" />
+        </a>
+        
+        <a href="_img/_gw2/3.jpg" title="View full screen" target="_blank">
+            <img src="_img/_gw2/3.jpg" alt="" />
+        </a>
     </div>
 
-</div>  <!-- end header -->
 
 
-<div class="splashContent"> <!-- Begin Splash Main -->
-    <h2>Where do you want to explore?</h2>  <!-- Title out of containment -->
-        <div id="splashContainer"> <!-- Begin Container -->
-            <table id="splashTable" border="0"> <!-- start alignment table -->
-                <!-- <thead>
-                        ...Maybe later...
-                </thead> -->
-                
-                <tbody>
-                    <tr> <!-- row 1 -->
-                        <td> 
-                            <a href="status/ServerStatus.html">
-                                <div id="mc" > <!-- minecraft option -->
-                                    <img src="_img/minecraft.png" alt="Kitten Approved Minecraft Community"/>
-                                </div>
-                            </a>
-                        </td>
-                        
-                        <td>
-                            <div id="gw2" onClick="inDev()"> <!-- guild wars 2 option -->
-                                <img src="_img/gw2.png" alt="Kitten Approved Guild Wars 2 Community"/>
-                            </div> 
-                        </td>
-                        
-                    </tr> <!-- end row 1 -->
-                    
-                    <tr> <!-- row 2 -->
-                        <td>
-                            <a href="homepage/index.html">
-                                <div class="splashSelection">
-                                    <img src="_img/blog.png" alt="Visit Blog site" />
-                                </div>
-                            </a>
-                        </td>
-                        
-                        <td>
-                            <div class="splashSelection" onClick="inDev()">
-                                <img src="_img/forums.png" alt="Visit Forums" />
-                            </div>
-                        </td>
-                    </tr> <!-- end row 2 -->
-                    
-                    <tr> <!-- row 3 , span 2-->
-                      
-         <!-- It's empty here.... :o -->
-                      
-                    </tr> <!-- end row 3 -->
-                
-                <!-- <div class="seperator"><img src="_img/seperator.png" alt=""/></div> <!-- Seperator -->
-                </tbody>
-            </table> <!-- End table alignment -->
-            
-            
-            <div class="more2come"> <!-- under table, wanted centered out of table since not actually an option -->
-                <img src="_img/more2come.png" alt="More in the future!" />
-            </div>
-            
-            
-       </div> <!-- End container -->
-</div> <!-- end splash -->
+    <div id="more2come">
+
+    
+    
+    </div> <!-- end more to come -->
+
+
+</div> <!-- end main -->
+
+
+<!-- footer-->
+<div class="footer"> <!-- similar to status page but black with blue links and text -->
 
 
 
-<div class="footer"> <!-- Begin footer -->
-    <small>Kitten Approved Gaming - KITAN</small>
+</div>
 
-</div> <!-- end footer -->
 
 </body>
 </html>

@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* pre */
+
+html {
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;   
+}
+
+#dev {
+    color: #ED6E00;   
+}
+
+/* content */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 120px;
+    padding: 5px 0 0 10px;
+    background-color: #003451;
+    z-index: 1;
+}
+
+.header h1 {
+    color: #00ccff;
+    text-shadow: 0 0 15px #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.header p:nth-child(2) {
+    color: #00ccff;
+    text-decoration: overline;
+    text-shadow: 0 0 15px #f7f7f7; 
+    padding: 0;
+    margin: 0; 
+}
+
+
+/* Social */
+
+.header .social {
+    position: relative;
+    float: right;
+    top: -64px;
+    left: -10px;
+
+}
+
+.header .social ul {
+    padding: 0;
+    margin: 0;  
+}
+
+.header .social ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.header .social ul li:hover {
+    box-shadow: 0 0 50px #ff0000; 
+    font-size: 1.1em;  
+}
+
+.header .social ul li:first-child {     /* tumblr */
+    color: white;
+    padding: 5px;
+    background-color: #004CFF;
+    font-weight: bold;  
+}
+
+.header .social ul li:nth-child(2) {    /* youtube */
+    color: white;
+    padding: 5px;
+    background-color: #E82F32;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(3) {    /* fb */
+    color: white;
+    padding: 5px;
+    background-color: #0099ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(4) {    /* twitter */
+    color: white;
+    padding: 5px;
+    background-color: #33f8ff;
+    font-weight: bold;   
+}
+
+.header .social ul li:nth-child(5) {    /* g+ */
+    color: white;
+    padding: 5px;
+    background-color: #F36B25;
+    font-weight: bold;   
+}
+
+
+
+/* Game selection */
+
+.splashContent {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    top: 120px;
+}
+
+#splashContainer {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 11%;
+    background-color: #980084;
+    /* made by accident and I actually like it for the moment haha */
+}
+
+.splashContent #splashContainer #splashTable {      /* Alignment table */
+    margin: 0 auto;   
+}
+
+/* .splashContent #splashContainer h2 {
+    color: #f0f0f0;  
+    text-shadow: 0 0 15px #f7f7f7;
+    text-align: center;
+    margin: 20px 0 120px 0;
+} */
+
+.splashContent #splashContainer #mc {        /* Minecraft */
+    left: 30%;
+    top: -15px;
+}
+
+.splashContent #splashContainer #mc img {
+    width: 300px;
+    height: 130px;
+}
+
+.splashContent #splashContainer #mc img:hover {
+    box-shadow: 0 0 130px #33ffff inset;   
+    padding: 10px 0 10px 0;         /* so selector highlight matches gw2 highlight and doesn't push over */
+}
+
+.splashContent #splashContainer .seperator {
+    float: left; 
+    left: 15%;
+    z-index: -1;
+}
+
+.splashContent #splashContainer .seperator img {
+       
+}
+
+
+.splashContent #splashContainer #gw2 {       /* Guild Wars 2 */
+    right: 32%;
+}
+
+.splashContent #splashContainer #gw2 img {
+    width: 300px;
+    height: 150px;   
+}
+
+.splashContent #splashContainer #gw2 img:hover {
+    box-shadow: 0 0 130px #33ffff inset;   
+}
+
+.splashContent #splashContainer .splashSelection:hover {
+    box-shadow: 0 0 130px #33ffff inset; 
+}
+
+.splashContent #splashContainer .more2come {
+    position: relative;
+    left: 37%;
+}
+
+/* footer */
+
+.footer {
+   position: relative;
+   background-color: #003451;
+   width: 99.7%;
+   top: 837px;
+   left: -8px;
+   text-align: center;
+   padding: 10px;
+}
+
+.footer small {
+   color: #f0f0f0;
+   font-size: 1em;
+   text-shadow: 0 0 15px #f7f7f7;
+}
