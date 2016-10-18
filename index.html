@@ -2,9 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Splash V2</title>
+<title>Intro V2 - KITAN</title>
 <link rel="stylesheet" type="text/css" href="splash_v2.css"/>
+
+<script type="text/javascript">
+    function inDev() {
+        alert ("Currently in development. \r\nCheck back later :)");   
+    }
+
+</script>
+
 </head>
+
+
 
 <body>
 
@@ -21,6 +31,7 @@
 <!-- Main area -->
 <div class="main"> <!-- Main area to hold games that will span across the page with pictures/ description -->
 
+<a href="status/ServerStatus.html" title="Click to view Minecraft server infomation">
     <div id="mc"> <!-- this will be brown background with green text-->
         
         <div id="mcLogo"> <!-- Left side with text and description + screenshots on right -->
@@ -34,7 +45,7 @@
         </div>
         
     </div> <!-- end mc -->
-
+</a>
 
 
     <div id="mcImage"> <!-- image outside mc container under. centered with a few screenshots -->
@@ -52,7 +63,7 @@
     </div> <!-- this colour #33ffff; maybe? -->
 
 
-
+<a href="#" title="Disabled, coming soon!" onClick="inDev()">
     <div id="gw2"> <!-- black background and red -->
        
         <div id="gw2Logo"> <!-- Left side with text and description + screenshots on right -->
@@ -67,7 +78,7 @@
         
         
     </div> <!-- end gw2 -->
-
+</a>
 
     <div id="gw2Image"> <!-- under description -->
         <a href="_img/_gw2/1.jpg" title="View full screen" target="_blank">
